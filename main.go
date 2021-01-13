@@ -3,7 +3,6 @@ package mymodule
 import (
 	formatter "github.com/antonfisher/nested-logrus-formatter"
 	"github.com/sirupsen/logrus"
-	"os"
 	"time"
 )
 
