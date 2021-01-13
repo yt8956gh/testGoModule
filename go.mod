@@ -1,4 +1,4 @@
-module myModule
+module testGoModule
 
 go 1.14
 
