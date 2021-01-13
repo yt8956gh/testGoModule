@@ -1,4 +1,4 @@
-module testGoModule
+module github.com/yt8956gh/testGoModule
 
 go 1.14
 
