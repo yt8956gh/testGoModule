@@ -8,8 +8,7 @@ import (
 
 var log *logrus.Logger
 
-// AperLog : Log entry of aper
-var AperLog *logrus.Entry
+var Log *logrus.Entry
 
 func init() {
 	log = logrus.New()
@@ -23,9 +22,9 @@ func init() {
 		FieldsOrder:     []string{"component", "category"},
 	}
 
-	AperLog = log.WithFields(logrus.Fields{"component": "MOD", "category": "TEST"})
+	Log = log.WithFields(logrus.Fields{"component": "MOD", "category": "TEST"})
 }
 
 func Test() {
-	AperLog.Infof("Test !!")
+	Log.Infof("Test !!")
 }
