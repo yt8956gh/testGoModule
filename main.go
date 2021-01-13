@@ -26,6 +26,6 @@ func init() {
 	AperLog = log.WithFields(logrus.Fields{"component": "MOD", "category": "TEST"})
 }
 
-func main() {
-	AperLog.Infof("Information !!")
+func Test() {
+	AperLog.Infof("Test !!")
 }
