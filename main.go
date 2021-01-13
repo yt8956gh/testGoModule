@@ -26,5 +26,5 @@ func init() {
 }
 
 func Test() {
-	Log.Infof("Test !!")
+	Log.Infof("Test !!") //test
 }
