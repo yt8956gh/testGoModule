@@ -1,4 +1,4 @@
-module github.com/yt8956gh/testGoModule
+module bitbucket.org/yt8956789/testgomodule
 
 go 1.14
 
