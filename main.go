@@ -26,5 +26,5 @@ func init() {
 }
 
 func Test() {
-	Log.Infof("Test !! v1.0.1") //test
+	Log.Infof("Test !! v1.0.3 in bitbucket") //test
 }
