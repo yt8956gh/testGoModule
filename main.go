@@ -1,7 +1,10 @@
 package mymodule
 
 import (
+	"fmt"
 	formatter "github.com/antonfisher/nested-logrus-formatter"
+	"github.com/chenht1998/testA"
+	"github.com/jordan0210/releaseGoModTest"
 	"github.com/sirupsen/logrus"
 	"time"
 )
@@ -26,5 +29,8 @@ func init() {
 }
 
 func Test() {
-	Log.Infof("Test !! v1.0.3 in bitbucket") //test
+	myGoMod.Main()
+	fmt.Println("------------------")
+	testA.Exec()
+	Log.Infof("Test !!")
 }
